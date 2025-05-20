@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class EmployeeComponent {
 
+  name ="Ramesh"
+  address ="Bangalore"
+
 }
