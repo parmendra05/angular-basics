@@ -16,4 +16,6 @@ export class EmployeeComponent {
     {name: "Suresh" , address : "Bangalore" , salary : 40000 }
   ]
 
+  myTableColor = "aqua"
+
 }
