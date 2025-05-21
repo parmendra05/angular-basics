@@ -1,9 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { MyLineHilighterDirective } from '../../directives/my-line-hilighter.directive';
 
 @Component({
   selector: 'app-employee',
-  imports: [CommonModule],
+  imports: [CommonModule,MyLineHilighterDirective],
   templateUrl: './employee.component.html',
   styleUrl: './employee.component.css'
 })
