@@ -1,1 +1,7 @@
-<p>a2 works!</p>
+<hr>
+<h1>Component A2, Count value =  {{counterService.getCounterValue()}}</h1>
+<button (click)="counterService.incrementCounterValue()" >Increment the value </button>
+
+
+<br>
+<b>Note : <br> Here A1 & A2 both Component are sharing global instance, Thats why always both values would be same</b>

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CounterService } from '../../services/counter.service';
 
 @Component({
   selector: 'app-a1',
@@ -7,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './a1.component.css'
 })
 export class A1Component {
+
+  constructor(public counterService : CounterService){
+
+  }
 
 }

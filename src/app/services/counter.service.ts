@@ -5,5 +5,14 @@ import { Injectable } from '@angular/core';
 })
 export class CounterService {
 
-  constructor() { }
+  private count =0;
+
+  getCounterValue(){
+    return this.count;
+  }
+
+  incrementCounterValue(){
+     this.count = this.count + 1
+  }
+
 }
