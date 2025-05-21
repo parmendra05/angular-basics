@@ -1,10 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { MyLineHilighterDirective } from '../../directives/my-line-hilighter.directive';
+import { CountryCodePipe } from '../../pipes/country-code.pipe';
 
 @Component({
   selector: 'app-employee',
-  imports: [CommonModule,MyLineHilighterDirective],
+  imports: [CommonModule,MyLineHilighterDirective,CountryCodePipe],
   templateUrl: './employee.component.html',
   styleUrl: './employee.component.css'
 })
@@ -18,5 +19,6 @@ export class EmployeeComponent {
   ]
 
   myTableColor = "aqua"
+  mobileNo = 7777888999
 
 }
