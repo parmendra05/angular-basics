@@ -10,7 +10,7 @@
     </tr>
     
 <tr *ngFor = "let employee of employees">
-<td>  {{employee.name}}  </td><td>  {{employee.address}} </td><td>{{employee.salary}}</td>
+<td>  {{employee.name | titlecase}}  </td><td>  {{employee.address}} </td><td>{{employee.salary | currency:"INR"}}</td>
 </tr>
 </table>
 </div>

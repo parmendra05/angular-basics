@@ -11,8 +11,8 @@ import { MyLineHilighterDirective } from '../../directives/my-line-hilighter.dir
 export class EmployeeComponent {
 
   employees = [
-    {name: "Ramesh" , address : "Bangalore" , salary : 70000 },
-    {name: "Ganesh" , address : "Hyderabad" , salary : 55000 },
+    {name: "rameSH" , address : "Bangalore" , salary : 70000 }, // titleCase Pipe will convert this name into Ramesh
+    {name: "GaNesh" , address : "Hyderabad" , salary : 55000 },
     {name: "Mahesh" , address : "Delhi" , salary : 45000 },
     {name: "Suresh" , address : "Bangalore" , salary : 40000 }
   ]
