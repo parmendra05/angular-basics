@@ -4,10 +4,11 @@ import { EmployeeComponent } from './components/employee/employee.component';
 import { A1Component } from './components/a1/a1.component';
 import { A2Component } from './components/a2/a2.component';
 import { BComponent } from './components/b/b.component';
+import { HomeComponent } from './components/home/home.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, EmployeeComponent,A1Component,A2Component,BComponent],
+  imports: [RouterOutlet, EmployeeComponent,A1Component,A2Component,BComponent,HomeComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
